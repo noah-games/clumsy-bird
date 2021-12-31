@@ -1,6 +1,14 @@
 Clumsy Bird
 ===========
 
+## Build instructions
+
+```
+grunt uglify
+```
+
+Then run it and test it.
+
 A MelonJS made "Flappy Bird" clone.
 
 ![](http://i.imgur.com/Slbvt65.png)

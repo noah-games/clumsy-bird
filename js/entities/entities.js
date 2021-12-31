@@ -71,6 +71,7 @@ game.BirdEntity = me.Entity.extend({
         me.Rect.prototype.updateBounds.apply(this);
 
         var hitSky = -80; // bird height + 20px
+/*
         if (this.pos.y <= hitSky || this.collided) {
             game.data.start = false;
             me.audio.play("lose");
@@ -78,6 +79,7 @@ game.BirdEntity = me.Entity.extend({
             return false;
         }
         me.collision.check(this);
+*/
         return true;
     },
 
